@@ -51,7 +51,7 @@ unclassified:
           scm:
             github:
               credentialsId: "cbdays-github-username-pat"
-              repoOwner: "REPLACE_GITHUB_ORG"
+              repoOwner: "vikram-devsecops"
               repository: "pipeline-library"
   hibernationConfiguration:
     activities:
@@ -70,10 +70,10 @@ credentials:
               scope: GLOBAL
               id: cbdays-github-token-secret
               description: "GitHub PAT from JCasC - secret text"
-              secret: "REPLACE_WITH_JENKINS_ENCODED_PAT"
+              secret: "{AQAAABAAAAAwe5nZXt4tI6Ti2B3q/YIp/4JqolJz0T840C4zVP5LvMcCPEDD6Ugv2GnHYeF6oGKuZ0IzJgh3SVr44XtNAMZGEw==}"
           - usernamePassword:
               scope: GLOBAL
               id: cbdays-github-username-pat
               description: "GitHub PAT from JCasC - username/password"
-              username: "REPLACE_WITH_YOUR_GITHUB_USERNAME"
-              password: "REPLACE_WITH_JENKINS_ENCODED_PAT"
+              username: "VikramME"
+              password: "{AQAAABAAAAAwe5nZXt4tI6Ti2B3q/YIp/4JqolJz0T840C4zVP5LvMcCPEDD6Ugv2GnHYeF6oGKuZ0IzJgh3SVr44XtNAMZGEw==}"
